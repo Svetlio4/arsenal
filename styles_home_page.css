@@ -1,0 +1,115 @@
+/* header and navbar styles */
+.navbar ul{
+  text-align: start;
+  content: normal;
+  background-color: red;
+  margin-top: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 920px; ;
+  border-radius: 10px; 
+}
+.header h1{
+    text-shadow: 5px 3px 10px gray;
+    margin-top: 80px;
+    color:red;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: -80px;
+    font-size: 41.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    padding-bottom: 10px;
+}
+.logo img{
+    margin-top: -80px;
+    width: 170px;
+    height: auto;
+}
+.navbar{
+    margin-top: -80px;
+}
+.navbar ul li{
+  display: inline; 
+  margin-left: 30px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:x-large;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+.body{
+  background-image:url(../images/stadiumn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* main content styles */
+.fans{
+    width: 550px;
+    height: auto;
+}
+.fans img{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 170px;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 16px 11px rgba(255,0,0,0.59); 
+    box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 16px 11px rgba(255,0,0,0.59);
+}
+.supporters{
+    width: 460px;
+    height: auto;
+    padding-left: 40px;
+    padding-right: -100px;
+    margin-left: 170px;
+    background-color: white;
+    -webkit-box-shadow: 1px 3px 31px 11px rgba(0,0,0,0.89); 
+    box-shadow: 1px 3px 31px 11px rgba(0,0,0,0.89);
+}
+.supporters h2{
+    text-align: start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.supporters p{
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fanss img{
+    width: 500px;
+    height: auto;
+    margin-left: 800px;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 16px 11px rgba(255,0,0,0.59); 
+    box-shadow: inset 4px 4px 15px 0px #000000, 5px 5px 16px 11px rgba(255,0,0,0.59);
+}
+.chants{
+    width: 460px;
+    height: auto;
+    padding-left: 40px;
+    padding-right: -100px;
+    margin-left: 800px;
+    margin-top: -37%;
+    background-color: white;
+    -webkit-box-shadow: 1px 3px 31px 11px rgba(0,0,0,0.89); 
+    box-shadow: 1px 3px 31px 11px rgba(0,0,0,0.89);
+}
+.chants h2{
+    text-align: start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.chants p{
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* footer styles */
+.footer{
+    margin-top: 5%;
+    height: 150px;
+    background-color: white;
+}
+.footer img{
+    margin-right: 200px;
+    width: auto;
+    margin-top: 30px;
+    height: 100px;
+    margin-left: 95px;
+}

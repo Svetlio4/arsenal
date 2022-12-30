@@ -1,0 +1,96 @@
+/* header and navbar styles */
+.header{
+    margin-top: 0;
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+.navbar ul{
+    text-align: start;
+    content: normal;
+    background-color: white;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 900px; ;
+    border-radius: 10px; 
+  }
+  .header h1{
+    text-shadow: 5px 3px 10px gray;
+    margin-top: 80px;
+    color:black;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: -80px;
+    font-size: 41.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    padding-bottom: 10px;
+}
+.logo img{
+    margin-top: -80px;
+    width: 170px;
+    height: auto;
+}
+.navbar{
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.navbar ul li{
+  display: inline; 
+  margin-left: 35px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:x-large;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+/* main content styles */
+.layout table{
+    margin-left: 70px;
+    border-collapse: collapse;
+    border:solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: block;
+    background-color: red;
+    width: 600px;
+    height: auto;
+}
+.layout table th{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px;
+    border-style: solid;
+}
+.layout table td{
+    border: 2px;
+    border-style: solid;
+}
+.players tr{
+   margin-left: 50px;
+}
+/* image styles */
+.line img{
+    width: 600px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+/* footer styles */
+.footer{
+    margin-top: 5%;
+    height: 150px;
+    background-color: white;
+}
+.footer img{
+    margin-right: 200px;
+    width: auto;
+    margin-top: 30px;
+    height: 100px;
+    margin-left: 95px;
+}
